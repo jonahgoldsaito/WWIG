@@ -166,8 +166,11 @@ section {
   padding-bottom:50px;
 }
 section li {
-  list-style: none;
   padding-bottom: .5em;
+}
+section li em {
+  font-size: .8em;
+  color: #B4AB93;
 }
 p strong {
   color: #666;
@@ -182,22 +185,31 @@ h3 em {
   color: rgba(0,0,0,0.2);
 }
 
+#screenshot {
+  display:block;
+  width: 442px;
+  margin: 0 auto 40px auto;
+}
+
 #bookmarklet {
   display: block;
-  background: #F8F8F5;
-  padding: 0.3em 1em;
+  background: #382813;
+  padding: 0.3em 1em 0.3em .5em;
   border-radius: 11px;
-  box-shadow: 0 3px 0 #DBD7C8;
-  font-size: 1.5em;
-  color: #887161;
-  text-shadow: 0 1px 0 #DFDDCF;
+  box-shadow: 0 3px 0 #181403, 0 9px 10px rgba(0, 0, 0, 0.3);
+  font-size: 1.8em;
+  color: #BDA057;
+  text-shadow: 0 -1px 0 black;
   margin: 0 auto 1em auto;
   width: 6em;
   text-align: center;
-  border: 1px solid #E6E2D3;
+}
+#bookmarklet:hover{
+  background:#443119;
 }
 #bookmarklet img {
-  width: 28px;
+  width: 51px;
+  vertical-align: bottom;
 }
 
 small {
