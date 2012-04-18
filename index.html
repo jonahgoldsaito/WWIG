@@ -15,40 +15,42 @@
   <body>
     <div class="wrapper">
       <header>
+        <img src="https://github.com/jonahgoldstein/WWIG/raw/master/wwig.png" id="wwig_logo">
         <h1>WWIG</h1>
         <p>What Would I Get (if I followed you)</p>
-        <p class="view"><a href="https://github.com/jonahgoldstein/WWIG">View the Project on GitHub <small>jonahgoldstein/WWIG</small></a></p>
-        <ul>
-          <li><a href="https://github.com/jonahgoldstein/WWIG/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/jonahgoldstein/WWIG/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/jonahgoldstein/WWIG">Fork On <strong>GitHub</strong></a></li>
-        </ul>
+        <p class="view"><a href="https://github.com/jonahgoldstein/WWIG">View on GitHub</a></p>
       </header>
+      
       <section>
-        <h2>WWIG.</h2>
 
-<h3>What Would I Get <em>(if i followed you)</em>
+<h3>What Would I Get <em>(If I Followed You)</em>
 </h3>
-
-<p>Most of the stuff I want to see when I go to a Twitter timeline is drowned in a crap heap of things I <em>don't</em> want to see.  </p>
-
-<p>Often the window is filled with <a href="https://github.com/Tweets" class="user-mention">@Tweets</a> that I wouldn't see anyway. </p>
-
-<p>I just want to quickly glance and see what I'd get (WWIG) if I followed you.  And why not a rough estimate of how many of those tweets I'd get per day.</p>
 
 <p>WWIG is just a simple bookmarklet that filters through the tweets on a Twitter timeline and fades out the ones that wouldn't cross your stream.  It also calculates some <em>very rudimentary</em> estimates of the user's tweets/day from the twitter API.</p>
 
+<a href="javascript:var%20s%20=%20document.createElement('script');s.type='text/javascript';document.body.appendChild(s);s.src='https://raw.github.com/jonahgoldstein/WWIG/master/wwig.js';void(0);" id="bookmarklet"><img src="https://github.com/jonahgoldstein/WWIG/raw/master/wwig.png"> WWIG </a>
+
+<p>Most of the stuff I want to see when I go to a Twitter timeline is drowned in a crap heap of things I <em>don't</em> want to see.  A lot of those tweets <em>will never grace my timeline.</em></p>
+
+<p>I just want to quickly glance and see what I'd get (WWIG) if I followed you.  The bookmarklet also adds some stats - a rough estimate of how many of your tweets I'd get per day.  That seems pretty relevant.</p>
+
 <p>Simple.  Just something I wished Twitter did natively.</p>
 
-<p>Sue me.</p>
-
-<p>Actually don't.</p>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/jonahgoldstein">jonahgoldstein</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
+    
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("#bookmarklet").click( function(){ alert("drag me to your bookmark bar"); return false;} );
+      });
+      
+    </script>  
     <script src="javascripts/scale.fix.js"></script>
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
