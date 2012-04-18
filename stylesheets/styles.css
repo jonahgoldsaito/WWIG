@@ -169,10 +169,15 @@ section li {
   list-style: none;
   padding-bottom: .5em;
 }
+p strong {
+  color: #666;
+}
 p {
   line-height: 1.5em;
 }
-
+h3 {
+  padding-top: 5em;
+}
 h3 em {
   color: rgba(0,0,0,0.2);
 }
