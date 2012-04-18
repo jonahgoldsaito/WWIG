@@ -79,7 +79,7 @@
 		    $wpd.find('strong').html(wwig_per_day);
 		    
 		    var $wwig = $('#wwig'),
-		        img = "http://jonahgoldstein.com/wwig/wwig.png";
+		        img = "https://github.com/jonahgoldstein/WWIG/raw/master/wwig.png";
 		        console.log( img );
 		    if ($wwig.length==0){
           $wwig = $('<img src="'+img+'" id="wwig">')
