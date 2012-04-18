@@ -165,7 +165,10 @@ section {
   float:right;
   padding-bottom:50px;
 }
-
+section li {
+  list-style: none;
+  padding-bottom: .5em;
+}
 p {
   line-height: 1.5em;
 }
