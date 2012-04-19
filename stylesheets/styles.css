@@ -102,6 +102,19 @@ header {
   position:fixed;
 }
 
+header #wwig_title {
+  margin-left: 10px;
+}
+
+h1 { display:none; }
+header p {
+  text-align: center;
+  
+}
+header .explanation {
+  margin-top: 1em;
+}
+
 header ul {
   list-style:none;
   height:40px;
@@ -180,6 +193,8 @@ p {
 }
 h3 {
   padding-top: 5em;
+  color: #E2A64A;
+  font-size: 28px;
 }
 h3 em {
   color: rgba(0,0,0,0.2);
