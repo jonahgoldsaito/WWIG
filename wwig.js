@@ -47,7 +47,7 @@
     
     
     
-    $.getJSON( "http://api.twitter.com/1/statuses/user_timeline.json?callback=?",
+    $.getJSON( "//api.twitter.com/1/statuses/user_timeline.json?callback=?",
 		        { include_entities: "false",
               include_rts: "true",
               exclude_replies: "false",
@@ -79,7 +79,7 @@
 		    $wpd.find('strong').html(wwig_per_day);
 		    
 		    var $wwig = $('#wwig'),
-		        img = "https://github.com/jonahgoldstein/WWIG/raw/master/wwig.png";
+		        img = "//github.com/jonahgoldstein/WWIG/raw/master/wwig.png";
 		        console.log( img );
 		    if ($wwig.length==0){
           $wwig = $('<img src="'+img+'" id="wwig">')
