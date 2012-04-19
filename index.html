@@ -69,7 +69,8 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
-        $("#bookmarklet").click( function(){ alert("drag me to your bookmark bar"); return false;} );
+        $("#bookmarklet").click( function(e){ alert("drag me to your bookmark bar"); return false;} );
+        $("#bookmarklet img").click(function(e){ e.preventDefault(); });
       });
       
     </script>  

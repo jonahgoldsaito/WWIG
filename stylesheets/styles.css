@@ -67,9 +67,13 @@ code, pre {
 pre {
   padding:8px 15px;
   background: #f8f8f8;  
-  border-radius:5px;
   border:1px solid #e5e5e5;
   overflow-x: auto;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+  border-radius:5px;
 }
 
 table {
@@ -128,11 +132,18 @@ header ul {
   background: -o-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
   background: -ms-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
   background: linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
-  
-  border-radius:5px;
   border:1px solid #d2d2d2;
-  box-shadow:inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
   width:270px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+  border-radius:5px;
+  -webkit-box-shadow:inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
+  -moz-box-shadow:inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
+  -ms-box-shadow:inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
+  -o-box-shadow:inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
+  box-shadow:inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
 }
 
 header li {
@@ -210,14 +221,22 @@ h3 em {
   display: block;
   background: #382813;
   padding: 0.3em 1em 0.3em .5em;
-  border-radius: 11px;
-  box-shadow: 0 3px 0 #181403, 0 9px 10px rgba(0, 0, 0, 0.3);
   font-size: 1.8em;
   color: #BDA057;
   text-shadow: 0 -1px 0 black;
   margin: 0 auto 1em auto;
   width: 6em;
   text-align: center;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  -ms-border-radius: 11px;
+  -o-border-radius: 11px;
+  border-radius: 11px;
+  -webkit-box-shadow: 0 3px 0 #181403, 0 9px 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 3px 0 #181403, 0 9px 10px rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: 0 3px 0 #181403, 0 9px 10px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0 3px 0 #181403, 0 9px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 0 #181403, 0 9px 10px rgba(0, 0, 0, 0.3);
 }
 #bookmarklet:hover{
   background:#443119;
@@ -225,6 +244,16 @@ h3 em {
 #bookmarklet img {
   width: 51px;
   vertical-align: bottom;
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 small {
