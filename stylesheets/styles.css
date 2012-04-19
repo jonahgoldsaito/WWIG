@@ -274,6 +274,10 @@ footer {
   bottom:50px;
 }
 
+.twitter-share-button {
+  margin: 1em auto;
+}
+
 @media print, screen and (max-width: 960px) {
   
   div.wrapper {
