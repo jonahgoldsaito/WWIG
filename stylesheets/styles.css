@@ -188,6 +188,7 @@ section {
   width:500px;
   float:right;
   padding-bottom:50px;
+  padding-top: 65px;
 }
 section li {
   padding-bottom: .5em;
@@ -203,12 +204,17 @@ p {
   line-height: 1.5em;
 }
 h3 {
-  padding-top: 5em;
+  padding-top: 2.25em;
   color: #E2A64A;
   font-size: 28px;
 }
 h3 em {
   color: rgba(0,0,0,0.2);
+}
+h4 {
+  color: #b36f33;
+  font-size: 1.3em;
+  margin-top: -1em;
 }
 
 #screenshot {
